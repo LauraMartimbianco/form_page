@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+span {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  color: white;
+}
+
+body {
+  background-color: #0c5149;
+  min-height: 100vh;
+  padding-block: 2rem;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.form {
+  margin-block: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 60%;
+}
+
+.button_default {
+  background-color: #00bd78;
+  color: white;
+
+  margin-top: 35px; 
+
+  border-radius: 10px;
+  height: 45px;
+  width: 300px;
+  border: none;
+
+  font-family: Lexend Deca;
+
+  transition: all 600ms ease;
+  cursor: pointer;
+ 
+}
+
+.button_default:hover {
+  transform: scale(1.1);
+}
+
+.checkbox_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox_default {
+  margin-right: 5px;
+}
+

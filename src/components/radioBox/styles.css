@@ -1,0 +1,50 @@
+/* .origin input {
+    display: none;
+    font-size: 13.5px;
+    margin-top: auto;
+    padding: 5px;
+} */
+
+
+
+
+.origin input[type=radio] {
+    content: '';
+    height: 1.3rem;
+    width: 1rem;
+    margin-left: 28px;
+    box-sizing: border-box;
+    border: 2px solid white; 
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+
+}
+
+.origin input[name='origin'] {
+    accent-color: rgb(7, 80, 7);
+}
+
+.origin {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+ 
+.container {
+    width: 100%;
+    padding-top: 25px;
+    z-index: 10;
+}
+
+.container label {
+    font-size: 20px;
+    font-family: 'Poiret one';
+    font-weight: bold;
+    color: white;
+
+    
+} 
+

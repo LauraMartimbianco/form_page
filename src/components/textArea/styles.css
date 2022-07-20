@@ -1,0 +1,22 @@
+.wrapper {
+    flex-direction: column;
+    margin-top: 2rem;
+    padding-inline: 0.5rem;
+    z-index: 10;
+}
+
+.textarea_container {
+    width: 100%;
+    padding-inline: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #0a8967;
+    font-family: Lexend Deca;
+    
+}
+
+.textarea_container:focus {
+    border: 2px solid #20df7f;
+    outline: none;
+}
